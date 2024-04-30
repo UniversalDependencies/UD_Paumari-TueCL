@@ -11,7 +11,7 @@ This is a small treebank of Paumari, a low-resource Amazonian language.
 
 ## References
 
-* (citation)
+* Chapman, Shirley and Desmond C. Derbyshire, Paumarí. In: Derbyshire, Desmond C.  and Geoffrey K. Pullum (editors), Handbook of Amazonian Languages, Volume 3, Berlin, Boston, 1991. https://doi.org/10.1515/9783110854374
 
 
 # Changelog
