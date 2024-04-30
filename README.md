@@ -5,7 +5,7 @@ This is a small treebank of Paumari, a low-resource Amazonian language.
 
 # Introduction
 
-
+UD Paumari TueCL treebank is a manually annotated treebank of example sentences from the chapter on Paumarí by Chapman and Derbyshire (1991) in the 'Handbook of Amazonian Languages (Vol. 3)'.
 
 # Acknowledgments
 
