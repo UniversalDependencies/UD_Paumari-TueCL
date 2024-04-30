@@ -26,13 +26,13 @@ Data available since: UD v2.14
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: grammar-examples
-Lemmas: manual native
+Lemmas: not available
 UPOS: manual native
 XPOS: not available
-Features: manual native
+Features: not available
 Relations: manual native
 Contributors: Ott, Annika; Çöltekin, Çağrı
 Contributing: here
-Contact: cagri.coeltekin@uni-tuebingen.de
+Contact: annika.ott@student.uni-tuebingen.de; cagri.coeltekin@uni-tuebingen.de
 ===============================================================================
 </pre>
