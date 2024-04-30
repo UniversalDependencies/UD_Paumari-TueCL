@@ -1,16 +1,13 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
+This is a small treebank of Paumari, a low-resource Amazonian language.
 
 
 # Introduction
 
-...
 
 
 # Acknowledgments
-
-...
 
 ## References
 

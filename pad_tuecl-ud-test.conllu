@@ -1,0 +1,1234 @@
+########## handbook examples ##########
+########## chpt. 1: word order ##########
+# sent_id = HB_1.1
+# text = Sokoaki hida mamai.
+# text_seg = Soko-a-ki hida mamai.
+# hb_glosses: wash-DETRANSVZR-NONTHEME DEM,f mother
+# en_text: Mother is washing.
+# source: hb, p. 163, ex. 1
+1	Sokoaki	_	VERB	_	_	0	root	_	Gloss=wash-DETRANSVZR-NONTHEME
+2	hida	_	DET	_	_	3	det	_	Gloss=DEM,f
+3	mamai	_	NOUN	_	_	1	nsubj	_	Gloss=mother|SpaceAfter=No
+4	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_1.2
+# text = Obararihi.
+# text_seg = O-ba-rari-hi.
+# hb_glossses: ISG-put-down-THEME
+# en_text: I put it (my load) down.
+# source: hb, p. 163, ex. 2
+1	Obararihi	_	VERB	_	_	0	root	_	Gloss=ISG-put-down-THEME|SpaceAfter=No
+2	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_1.3
+# text = Jahaki ada.
+# text_seg = Jaha-ki ada.
+# hb_glosses: good-NONTHEME DEM,m
+# en_text: It is good (the palm nut).
+# source: hb, p. 163, ex. 
+1	Jahaki	_	VERB	_	_	0	root	_	Gloss=good-NONTHEME
+2	ada	_	PRON	_	_	1	nsubj	_	Gloss=DEM,m|SpaceAfter=No
+3	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_1.4
+# text = Morosi vaakairaha'aha.
+# text_seg = Morosi va-a-kaira-ha-'a-ha.
+# hb_glosses: Morosi 3PL-VBLZR-guava-distance-ASP-THEME
+# en_text: Morosi (and companions) went to get guava.
+# source: hb, p. 163, ex. 4
+1	Morosi	_	PROPN	_	_	2	dislocated	_	Gloss=Morosi
+2	vaakairaha'aha	_	VERB	_	_	0	root	_	Gloss=3PL-VBLZR-guava-distance-ASP-THEME|SpaceAfter=No
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_1.5
+# text = Donoa biko'diraha'aha ada isai hoariha.
+# text_seg = Dono-a bi-ko'diraha-'a-ha ada isai hoariha.
+# hb_glosses: Dono-ERG 3SG-pinch-ASP-THEME,m DEM,m child other
+# en_text: Dono pinched the other boy.
+# source: hb, p. 164, ex. 5
+1	Donoa	_	PROPN	_	_	2	nsubj	_	Gloss=Dono-ERG
+2	biko'diraha'aha	_	VERB	_	_	0	root	_	Gloss=3SG-pinch-ASP-THEME,m
+3	ada	_	DET	_	_	4	det	_	Gloss=DEM,m
+4	isai	_	NOUN	_	_	2	obj	_	Gloss=child
+5	hoariha	_	ADJ	_	_	4	amod	_	Gloss=other|SpaceAfter=No
+6	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_1.6
+# text = Orako'dahi.
+# text_seg = O-rako'da-hi.
+# hb_glosses: 1SG-pull:off-THEME,f
+# en_text: I pulled it off.
+# source: hb, p. 164, ex. 6
+1	Orako'dahi	_	VERB	_	_	0	root	_	Gloss=1SG-pull:off-THEME,f|SpaceAfter=No
+2	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_1.7
+# text = Maravira namonahahi ida mamai.
+# text_seg = Maravi-ra namonaha-hi ida mamai.
+# en_text: 'Mother made a fan.'
+# source: hb, p. 165, ex. 7
+1	Maravira	_	NOUN	_	_	2	obj	_	Gloss=fan-OBJ
+2	namonahahi	_	VERB	_	_	0	root	_	Gloss=make-THEME,f
+3	ida	_	DET	_	_	4	det	_	Gloss=DEM,f
+4	mamai	_	NOUN	_	_	2	nsubj	_	Gloss=mother|SpaceAfter=No
+5	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_1.8
+# text = Mamai, amo'amo Vanda ai arihinara nofi'iki.
+# text_seg = Mamai, amo'amo Vanda ai ari-hi-na-ra nofi-'i-ki.
+# en_text: Mother, cousin Vanda wants us to leave.
+# source: hb, p. 165, ex. 8
+1	Mamai	_	NOUN	_	_	7	vocative	_	Gloss=mother|SpaceAfter=No
+2	,	_	PUNCT	_	_	7	punct	_	_
+3	amo'amo	_	NOUN	_	_	4	nmod	_	Gloss=cousin
+4	Vanda	_	PROPN	_	_	7	nsubj	_	Gloss=Vanda
+5	ai	_	VERB	_	_	7	xcomp	_	Gloss=depart
+6	arihinara	_	PRON	_	_	7	obj	_	Gloss=1PL-AUX-DEP:INTRANS-OBJ
+7	nofi'iki	_	VERB	_	_	0	root	_	Gloss=want-ASP-NONTHEME|SpaceAfter=No
+8	.	_	PUNCT	_	_	7	punct	_	_
+
+# sent_id = HB_1.9
+# text = Sorarara va'ora vani'avini adani imakhinava vi'bamiki.
+# text_seg = Sorara-ra va'o-ra va-ni-'a-vini adani imakhinava vi-'bami-ki.
+# hb_glosses: soldiers-OBJ them-OBJ 3PL-say-TRNSTVZR-DEP:TRANS DEM: PL fellows 3PL-two-DESC
+# en_text: The two fellows said to the soldiers.
+# source: hb, p. 165, ex. 9
+1	Sorarara	_	NOUN	_	_	3	dislocated	_	Gloss=soldiers-OBJ
+2	va'ora	_	PRON	_	_	3	iobj	_	Gloss=them-OBJ
+3	vani'avini	_	VERB	_	_	0	root	_	Gloss=3PL-say-TRNSTVZR-DEP:TRANS
+4	adani	_	DET	_	_	5	det	_	Gloss=DEM:PL
+5	imakhinava	_	NOUN	_	_	3	nsubj	_	Gloss=fellows
+6	vi'bamiki	_	NUM	_	_	5	nmod	_	Gloss=3PL-two-DESC|SpaceAfter=No
+7	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = HB_1.10
+# text = Joma va'ora adava adani sorara.
+# text_seg = Joma va'o-ra a-da-va adani sorara.
+# hb_glosses: night them-OBJ IPL-strike-HORT DEM:PL soldier
+# en_text: Let's attack the soldiers by night.
+# source: hb, p. 166, ex. 10
+1	Joma	_	NOUN	_	_	3	obl	_	Gloss=night
+2	va'ora	_	PRON	_	_	3	obj	_	Gloss=them-OBJ
+3	adava	_	VERB	_	_	0	root	_	Gloss=1PL-strike-HORT
+4	adani	_	DET	_	_	5	det	_	Gloss=DEM:PL
+5	sorara	_	NOUN	_	_	3	dislocated	_	Gloss=soldier|SpaceAfter=No
+6	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = HB_1.11
+# text = Hora no'avini hiki ihaia.
+# text_seg = Ho-ra no'a-vini hi-ki ihai-a.
+# hb_glosses: me-OBJ give-DEP:TRANS AUX-NONTHEME medicine-DEMOT:O
+# en_text: She gave me medicine.
+# source: hb, p. 166, ex. 11
+# note/check: token 3 dependency
+1	Hora	_	PRON	_	_	2	iobj	_	Gloss=me-OBJ
+2	no'avini	_	VERB	_	_	0	root	_	Gloss=give-DEP:TRANS
+3	hiki	_	AUX	_	_	2	aux	_	Gloss=AUX-NONTHEME
+4	ihaia	_	NOUN	_	_	2	obj	_	Gloss=medicine-DEMOT:O|SpaceAfter=No
+5	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_1.12
+# text = Mariara ono'avini hihi ida savaharo vadini.
+# text_seg = Maria-ra o-no'a-vini hi-hi ida savaharo vadi-ni.
+# hb_glosses: Mary-OBJ 1SG-give-DEP:TRANS AUX-THEME,f DEM,f turtle arm-f
+# text_en: I gave Mary the turtle arm.
+# source: hb, p. 166, ex.12
+1	Mariara	_	PROPN	_	_	2	iobj	_	Gloss=Mary-OBJ
+2	ono'avini	_	VERB	_	_	0	root	_	Gloss=SG-give-DEP:TRANS
+3	hihi	_	AUX	_	_	2	aux	_	Gloss=AUX-THEME,f
+4	ida	_	DET	_	_	5	det	_	Gloss=DEM,f
+5	savaharo	_	NOUN	_	_	2	obj	_	Gloss=turtle
+6	vadini	_	NOUN	_	_	5	nmod	_	Gloss=arm-f|SpaceAfter=No
+7	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_1.13
+# text = Hora nana'dohivini hi'aha.
+# text_seg = Ho-ra na-na'dohi-vini hi-'a-ha.
+# hb_glosses: me-OBJ CAUS-ask-DEP:TRANS AUX-ASP-THEME,m
+# text_en: She asked me about it (a dried up crab).
+# source: hb, p. 167, ex. 13
+1	Hora	_	PRON	_	_	2	obj	_	Gloss=me-OBJ
+2	nana'dohivini	_	VERB	_	_	0	root	_	Gloss=CAUS-ask-DEP:TRANS
+3	hi'aha	_	AUX	_	_	2	aux	_	Gloss=AUX-ASP-THEME,m|SpaceAfter=No
+4	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_1.14a
+# text = Ira okarabahivini kihiki ida varaja.
+# text_seg = I-ra o-ka-raba-hi-vini ki-hi-ki ida varaja.
+# hb_glosses: 2SG-OBJ 1SG-BEN-weave-BEN-DEP:TRANS N:CLASS-AUX-NONTHEME DEM,f basket
+# text_en: I am weaving a basket for you.
+# source: hb, p. 167, ex. 14a
+1	Ira	_	PRON	_	_	2	iobj	_	Gloss=2SG-OBJ
+2	okarabahivini	_	VERB	_	_	0	root	_	Gloss=1SG-BEN-weave-BEN-DEP:TRANS
+3	kihiki	_	AUX	_	_	2	aux	_	Gloss=N:CLASS-AUX-NONTHEME
+4	ida	_	DET	_	_	5	det	_	Gloss=DEM,f
+5	varaja	_	NOUN	_	_	2	obj	_	Gloss=basket|SpaceAfter=No
+6	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_1.14b
+# text = Okanamonaha'iki hida varaja kadaimoni.
+# text_seg = O-ka-namonaha-'i-ki hida varaja kada-imoni.
+# hb_glosses: 1SG-N:CLASS-make-ASP-NONTHEME DEM,f basket 2SG-for
+# text_en: I have made this basket for you.
+# source: hb, p. 167, ex. 14b
+1	Okanamonaha'iki	_	VERB	_	_	0	root	_	Gloss=1SG-N:CLASS-make-ASP-NONTHEME
+2	hida	_	DET	_	_	3	det	_	Gloss=DEM,f
+3	varaja	_	NOUN	_	_	1	obj	_	Gloss=basket
+4	kadaimoni	_	NOUN	_	_	1	obl	_	Gloss=2SG-for|SpaceAfter=No
+5	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_1.15
+# text = Pitani vani ono'avini hi'ihi.
+# text_seg = Pitani vani o-no'a-vini hi-'i-hi.
+# hb_glosses: part CONTR 1SG-give-DEP:TRANS AUX-ASP-THEME,f
+# text_en: I gave part of it (palm fruit (f)) to her.
+# source: hb, p. 167, ex. 15
+# note/fix: token 2
+1	Pitani	_	NOUN	_	_	3	obj	_	Gloss=part
+2	vani	_	ADV	_	_	1	advmod:emph	_	Gloss=CONTR
+3	ono'avini	_	VERB	_	_	0	root	_	Gloss=1SG-give-DEP:TRANS
+4	hi'ihi	_	AUX	_	_	3	aux	_	Gloss=AUX-ASP-THEME,f|SpaceAfter=No
+5	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = HB_1.16
+# text = Birako'dahi pitania hora no'a'ianahi.
+# text_seg = Bi-rako'da-hi pitani-a ho-ra no'a-'iana-hi.
+# hb_glosses: 3SG-pull:off-THEME,f part-DEMOT:O me-OBJ give-again-THEME,f
+# text_en: She pulled it off and part she gave to me again.
+# source: hb, p. 167, ex. 16
+1	Birako'dahi	_	VERB	_	_	0	root	_	Gloss=3SG-pull:off-THEME,f
+2	pitania	_	NOUN	_	_	4	obj	_	Gloss=part-DEMOT:O
+3	hora	_	PRON	_	_	4	iobj	_	Gloss=me-OBJ
+4	no'a'ianahi	_	VERB	_	_	1	conj	_	Gloss=give-again-THEME,f|SpaceAfter=No
+5	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_1.17
+# text = Ihai hida ira okavikhavini hija.
+# text_seg = Ihai hida i-ra o-ka-vi-kha-vini hi-ja.
+# hb_glosses: medicine DEM,f 2SG-OBJ 1SG-BEN-COMIT-MOT-DEP:TRANS AUX-IMMED
+# text_en: I've brought medicine for you.
+# source: hb, p. 168, ex. 17
+1	Ihai	_	NOUN	_	_	4	obj	_	Gloss=medicine
+2	hida	_	DET	_	_	1	det	_	Gloss=DEM,f
+3	ira	_	PRON	_	_	4	iobj	_	Gloss=2SG-OBJ
+4	okavikhavini	_	VERB	_	_	0	root	_	Gloss=1SG-BEN-COMIT-MOT-DEP:TRANS
+5	hija	_	AUX	_	_	4	aux	_	Gloss=AUX-IMMED|SpaceAfter=No
+6	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = HB_1.18
+# text = Nahina mani hida.
+# text_seg = Nahina mani hida.
+# hb_glosses: what COP DEM,f
+# text_en: What is this?
+# source: hb, p. 168, ex. 18
+1	Nahina	_	PRON	_	_	3	nsubj	_	Gloss=what
+2	mani	_	AUX	_	_	3	cop	_	Gloss=COP
+3	hida	_	PRON	_	_	0	root	_	Gloss=DEM,f|SpaceAfter=No
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = HB_1.19
+# text = Kodipapira oni.
+# text_seg = Kodi-papira oni.
+# hb_glosses: my-book DEM,f
+# text_en: That is my book.
+# source: hb, p. 168, ex. 19
+1	Kodipapira	_	NOUN	_	_	2	nsubj	_	Gloss=my-book
+2	oni	_	PRON	_	_	0	root	_	Gloss=DEM,f|SpaceAfter=No
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_1.20
+# text = Kahaso niPamoari.
+# text_seg = Kahaso ni-Pamoari.
+# hb_glosses: Kahaso NEG-Paumari
+# text_en: Kahaso was not a Paumari.
+# source: hb, p. 168, ex. 20
+# note/fix: POS tag of 2
+1	Kahaso	_	PROPN	_	_	0	root	_	Gloss=Kahaso
+2	niPamoari	_	ADJ	_	_	1	nsubj	_	Gloss=NEG-Paumari|SpaceAfter=No
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_1.21
+# text = Kadaija'ari ho.
+# text_seg = Kada-ija'ari ho.
+# hb_glosses: your-people 1SG
+# text_en: I am one of your people.
+# source: hb, p. 169, ex. 21
+1	Kadaija'ari	_	NOUN	_	_	0	root	_	Gloss=your-people
+2	ho	_	PRON	_	_	1	nsubj	_	Gloss=1SG|SpaceAfter=No
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_1.22
+# text = Paulo kaisai mani i.
+# text_seg = Paulo ka-isai mani i.
+# hb_glosses: Paul POSSN-child COP 2SG
+# text_en: You are Paul's child.
+# source: hb, p. 168, ex. 22
+1	Paulo	_	PROPN	_	_	2	nmod:poss	_	Gloss=Paul
+2	kaisai	_	NOUN	_	_	0	root	_	Gloss=POSSN-child
+3	mani	_	AUX	_	_	2	cop	_	Gloss=COP
+4	i	_	PRON	_	_	2	nsubj	_	Gloss=2SG|SpaceAfter=No
+5	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_1.23
+# text = Hovani José ho.
+# text_seg = Ho-vani José ho.
+# hb_glosses: 1SG-CONTR José 1SG
+# text_en: I am José.
+# source: hb, p. 169, ex. 23
+1	Hovani	_	ADV	_	_	2	advmod:emph	_	Gloss=1SG-CONTR
+2	José	_	PROPN	_	_	3	nsubj	_	Gloss=José
+3	ho	_	PRON	_	_	0	root	_	Gloss=1SG|SpaceAfter=No
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = HB_1.24
+# text = Nahina ida inofija.
+# text_seg = Nahina ida i-nofi-ja.
+# hb_glosses: what DEM,f 2SG-want-IMMED
+# text_en: What do you want?
+# source: hb, p. 169, ex. 24
+1	Nahina	_	PRON	_	_	3	obj	_	Gloss=what
+2	ida	_	DET	_	_	1	det	_	Gloss=DEM,f
+3	inofija	_	VERB	_	_	0	root	_	Gloss=2SG-want-IMMED|SpaceAfter=No
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = HB_1.25
+# text = Kavari hida onofija.
+# text_seg = Kavari hida o-nofi-ja.
+# hb_glosses: scissors DEM,f 1SG-want-IMMED
+# text_en: I want these scissors.
+# source: hb, p. 169, ex. 25
+1	Kavari	_	NOUN	_	_	3	obj	_	Gloss=scissors
+2	hida	_	DET	_	_	1	det	_	Gloss=DEM,f
+3	onofija	_	VERB	_	_	0	root	_	Gloss=1SG-want-IMMED|SpaceAfter=No
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = HB_1.26
+# text = Feijãora orakhaivinira onofihi kaasia.
+# text_seg = Feijão-ra o-rakhai-vini-ra o-nofi-hi kaasi-a.
+# hb_glosses: beans-OBJ 1SG-plant-DEP:TRANS-OBJ 1SG-want-THEME beach-OBL
+# text_en: I wanted to plant beans on the beach.
+# source: hb, p. 169, ex. 26
+1	Feijãora	_	NOUN	_	_	2	obj	_	Gloss=beans-OBJ
+2	orakhaivinira	_	VERB	_	_	3	ccomp	_	Gloss=1SG-plant-DEP:TRANS-OBJ
+3	onofihi	_	VERB	_	_	0	root	_	Gloss=1SG-want-THEME
+4	kaasia	_	NOUN	_	_	2	obl	_	Gloss=beach-OBL|SpaceAfter=No
+5	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = HB_1.27
+# text = Avigahahavija kaimoni ida ihi'ai hahavi onini va'ora kakahomara'ianavini.
+# text_seg = A-vi-ga-hahavi-ja kaimoni ida ihi'ai hahavi oni-ni va'o-ra ka-kahomara-'iana-vini.
+# hb_glosses: ?-3PL-know-all-IMMED PURP DEM,f fruit all name-f them-OBJ VBLZR-make:guess-again-DEP:TRANS
+# text_en: He makes them guess again for the purpose of their knowing the names of all the fruits.
+# source: hb, p. 170, ex. 27 
+1	Avigahahavija	_	VERB	_	_	8	xcomp	_	Gloss=?-3PL-know-all-IMMED
+2	kaimoni	_	SCONJ	_	_	1	mark	_	Gloss=PURP
+3	ida	_	DET	_	_	6	det	_	Gloss=DEM,f
+4	ihi'ai	_	NOUN	_	_	6	nmod:poss	_	Gloss=fruit
+5	hahavi	_	DET	_	_	4	det	_	Gloss=all
+6	onini	_	NOUN	_	_	1	obj	_	Gloss=name-f
+7	va'ora	_	PRON	_	_	1	nsubj	_	Gloss=them-OBJ
+8	kakahomara'ianavini	_	VERB	_	_	0	root	_	Gloss=VBLZR-make:guess-again-DEP:TRANS|SpaceAfter=No
+9	.	_	PUNCT	_	_	8	punct	_	_
+
+# sent_id = HB_1.28
+# text = Bahi naothiØa ai arihi'ihi.
+# text_seg = Bahi naothi-Ø-a ai ari-hi-'i-hi.
+# hb_glosses: rain after-m-OBL depart 1PL-AUX-ASP-THEME,f
+# text_en: After the rain we left.
+# source: hb, p. 170, ex. 28
+# note/fix: deprel for 1
+1	Bahi	_	NOUN	_	_	3	dep	_	Gloss=rain
+2	naothiØa	_	SCONJ	_	_	1	mark	_	Gloss=after-m-OBL
+3	ai	_	VERB	_	_	0	root	_	Gloss=depart
+4	arihi'ihi	_	AUX	_	_	3	aux	_	Gloss=1PL-AUX-ASP-THEME,f|SpaceAfter=No
+5	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = HB_1.29
+# text = Prima, kaasi hida onako'diha'ianaja inaba'dahani kaba'i osokoana naothinia.
+# text_seg = Prima, kaasi hida o-nako'di-ha-'iana-ja i-naba'daha-ni kaba'i o-soko-a-na naothi-ni-a.
+# hb_glosses: cousin beach DEM,f 1SG-seek-distance-again-IMMED 2SG-fish-DEP:INTRANS while 1SG-wash-DETRANSVZR-DEP:INTRANS after-f-OBL
+# text_en: Cousin, I will go again to look for a beach while you are fishing and after I've done the washing.
+# source: hb, p. 170/71, ex. 29
+1	Prima	_	NOUN	_	_	5	vocative	_	Gloss=cousin|SpaceAfter=No
+2	,	_	PUNCT	_	_	5	punct	_	_
+3	kaasi	_	NOUN	_	_	5	obj	_	Gloss=beach
+4	hida	_	DET	_	_	3	det	_	Gloss=DEM,f
+5	onako'diha'ianaja	_	VERB	_	_	0	root	_	Gloss=1SG-seek-distance-again-IMMED
+6	inaba'dahani	_	VERB	_	_	5	conj	_	Gloss=2SG-fish-DEP:INTRANS
+7	kaba'i	_	SCONJ	_	_	6	mark	_	Gloss=while
+8	osokoana	_	VERB	_	_	5	conj	_	Gloss=1SG-wash-DETRANSVZR-DEP:INTRANS
+9	naothinia	_	SCONJ	_	_	8	mark	_	Gloss=after-f-OBL|SpaceAfter=No
+10	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = HB_1.30
+# text = Hi'ida, 'dakoa akaga'ava.
+# text_seg = Hi-'ida, 'dako-a a-ka-ga-'a-va.
+# hb_glosses: SPECFR-DEM lake-OBL 1PL-canoe-flee-ASP-HORT
+# text_en: Over there, to the lake let us flee by canoe.
+# source: hb, p. 171, ex. 30
+# note/check: fixed non-projective puct by attaching to 3, but the annotation needs check
+1	Hi'ida	_	DET	_	_	3	det	_	Gloss=SPECFR-DEM|SpaceAfter=No
+2	,	_	PUNCT	_	_	3	punct	_	_
+3	'dakoa	_	NOUN	_	_	4	obl	_	Gloss=lake-OBL
+4	akaga'ava	_	VERB	_	_	0	root	_	Gloss=1PL-canoe-flee-ASP-HORT|SpaceAfter=No
+5	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = HB_1.31
+# text = Jara anani kidiisai jahani bodinia abiniki kani gorani adaminini ako'omisi'ianahi.
+# text_seg = Jara anani kidi-isai jaha-ni bodi-ni-a abini-ki kani gora-ni adamini-ni a-ko-'omisi-'iana-hi.
+# hb_glosses: non:Indian woman her-child abdomen-f inside-f-OBL die-NONTHEME place house-f port-f 1PL-canoe-dock-again-THEME
+# text_en: We docked again at the port of the house of the non-Indian woman who has a dead baby inside her.
+# source: hb, p. 171, ex. 31
+1	Jara	_	ADJ	_	_	2	nmod	_	Gloss=non:Indian
+2	anani	_	NOUN	_	_	8	nmod	_	Gloss=woman
+3	kidiisai	_	NOUN	_	_	2	acl:relcl	_	Gloss=her-child
+4	jahani	_	NOUN	_	_	3	obl	_	Gloss=abdomen-f
+5	bodinia	_	ADV	_	_	4	advmod	_	Gloss=inside-f-OBL
+6	abiniki	_	VERB	_	_	3	nmod	_	Gloss=die-NONTHEME
+7	kani	_	ADV	_	_	9	advmod:lmod	_	Gloss=place
+8	gorani	_	NOUN	_	_	9	nmod	_	Gloss=house-f
+9	adaminini	_	NOUN	_	_	10	obl	_	Gloss=port-f
+10	ako'omisi'ianahi	_	VERB	_	_	0	root	_	Gloss=1PL-canoe-dock-again-THEME|SpaceAfter=No
+11	.	_	PUNCT	_	_	10	punct	_	_
+
+# sent_id = HB_1.32
+# text = Ka'ajo khama aokhahi.
+# text_seg = Ka'ajo khama a-o-kha-hi.
+# hb_glosses: Ka'ajo with 1PL-away-MOT-THEME
+# text_en: With Ka'ajo we went.
+# source: hb, p. 171, ex. 32
+# status: draft
+# comment / question: not sure about "with Ka'ajo"
+1	Ka'ajo	_	PROPN	_	_	3	obl	_	Gloss=Ka'ajo
+2	khama	_	ADP	_	_	1	case	_	Gloss=with
+3	aokhahi	_	VERB	_	_	0	root	_	Gloss=1PL-away-MOT-THEME|SpaceAfter=No
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = HB_1.33
+# text = Ookhakiho avakadiania.
+# text_seg = O-o-kha-ki-ho avakadi-ania.
+# hb_glosses: 1SG-away-MOT-NONTHEME-1SG 2PL-with
+# text_en: I'll go with you.
+# source: hb, p. 171, ex. 33
+1	Ookhakiho	_	VERB	_	_	0	root	_	Gloss=1SG-away-MOT-NONTHEME-1SG
+2	avakadiania	_	ADP	_	_	1	nmod	_	Gloss=2PL-with|SpaceAfter=No
+3	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_1.34
+# text = Kodihadoa onobavini.
+# text_seg = Kodi-hado-a o-n-oba-vini.
+# hb_glosses: my-knife-OBL 1SG-CAUS-chop-DEP:TRANS
+# text_en: With my knife I chopped it (a tree).
+# source: hb, p. 172, ex. 34
+1	Kodihadoa	_	ADP	_	_	2	nmod	_	Gloss=my-knife-OBL
+2	onobavini	_	VERB	_	_	0	root	_	Gloss=1SG-CAUS-chop-DEP:TRANS|SpaceAfter=No
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_1.35
+# text = Oka'dava'davavini vanamia.
+# text_seg = O-ka-'dava'dava-vini vanami-a.
+# hb_glosses: 1SG-N:CLASS-splash:water-DEP:TRANS paddle-OBL
+# text_en:  Splashed her with a paddle (with water).
+# source: hb, p. 172, ex. 35
+1	Oka'dava'davavini	_	VERB	_	_	0	root	_	Gloss=1SG-N:CLASS-splash:water-DEP:TRANS
+2	vanamia	_	NOUN	_	_	1	obl	_	Gloss=paddle-OBL|SpaceAfter=No
+3	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_1.36
+# text = Baranahi vania aokhahi.
+# text_seg = Barana-hi vani-a a-o-kha-hi.
+# hb_glosses: calling-ADVBLZR CONTR-OBL 1PL-away-MOT-THEME
+# text_en: Calling out we went. / We were calling as we went.
+# source: hb, p. 172, ex. 36
+# status: draft
+1	Baranahi	_	ADV	_	_	3	advcl	_	Gloss=calling-ADVBLZR
+2	vania	_	ADV	_	_	3	advmod:emph	_	Gloss=CONTR-OBL
+3	aokhahi	_	VERB	_	_	0	root	_	Gloss=1PL-away-MOT-THEME|SpaceAfter=No
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = HB_1.37
+# text = Akaikahi'ihi ki'darahihia.
+# text_seg = A-kaikahi-'i-hi ki'darahi-hi-a.
+# hb_glosses: 1PL-arrive-ASP-THEME run-ADVBLZR-OBL
+# text_en: We arrived running.
+# source: hb, p. 172, ex. 37
+1	Akaikahi'ihi	_	VERB	_	_	0	root	_	Gloss=1PL-arrive-ASP-THEME
+2	ki'darahihia	_	ADV	_	_	1	advmod	_	Gloss=run-ADVBLZR-OBL|SpaceAfter=No
+3	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_1.38
+# text = Kaasi hida onako'dihaja orakhaiki kaimoni.
+# text_seg = Kaasi hida o-na-ko'di-ha-ja o-rakhai-ki kaimoni.
+# hb_glosses: beach DEM,f 1SG-CAUS-look:for-distance-IMMED 1SG-plant-NONTHEME purpose
+# text_en: I will look for a beach for me to plant on.
+# source: hb, p. 172, ex. 38
+1	Kaasi	_	NOUN	_	_	3	obj	_	Gloss=beach
+2	hida	_	DET	_	_	1	det	_	Gloss=DEM,f_
+3	onako'dihaja	_	VERB	_	_	0	root	_	Gloss=1SG-CAUS-look:for-distance-IMMED
+4	orakhaiki	_	VERB	_	_	3	advcl	_	Gloss=1SG-plant-NONTHEME
+5	kaimoni	_	SCONJ	_	_	4	mark	_	Gloss=purpose|SpaceAfter=No
+6	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = HB_1.39
+# text = Linda hora kaja'oria'iki ofinijora'ini.
+# text_seg = Linda ho-ra kaja'oria-'i-ki o-fini-jora-'i-ni.
+# hb_glosses: Linda me-OBJ be:annoyed-ASP-NONTHEME DETRANSVZR-fear-beforehand-ASP-DEP:INTRANS
+# text_en: Linda was annoyed with me because she was frightened beforehand.
+# source: hb, p. 172, ex. 39
+1	Linda	_	PROPN	_	_	3	nsubj	_	Gloss=Linda
+2	hora	_	PRON	_	_	3	obj	_	Gloss=me-OBJ
+3	kaja'oria'iki	_	VERB	_	_	0	root	_	Gloss=be:annoyed-ASP-NONTHEME
+4	ofinijora'ini	_	VERB	_	_	3	advcl	_	Gloss=DETRANSVZR-fear-beforehand-ASP-DEP:INTRANS|SpaceAfter=No
+5	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = HB_1.40
+# text = Biavakhanohi ida 'dako hoariha.
+# text_seg = Bi-a-va-kha-no-hi ida 'dako hoariha.
+# hb_glosses: 3SG-away-COMIT-MOT-arrive-THEME DEM,f lake other
+# text_en: He arrived at the other lake.
+# source: hb, p. 173, ex. 40
+1	Biavakhanohi	_	VERB	_	_	0	root	_	Gloss=3SG-away-COMIT-MOT-arrive-THEME
+2	ida	_	DET	_	_	3	det	_	Gloss=DEM,f
+3	'dako	_	NOUN	_	_	1	obl	_	Gloss=lake
+4	hoariha	_	ADJ	_	_	3	amod	_	Gloss=other|SpaceAfter=No
+5	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_1.41
+# text = Vakanakaikahihaha ada namajaja kajinaboni kagorana kakaraho.
+# text_seg = Va-ka-na-kaikahi-ha-ha ada nama-ja-ja ka-jinabo-ni ka-gora-na ka-karaho.
+# hb_glosses: 3PL-N:CLASS-CAUS-arrive-distance-THEME DEM,m above-directional-directional GEN-wasp-f GEN-house-m N:CLASS-big
+# text_en: They arrived at the large house of the wasps above (i.e., in the after life place).
+# source: hb, p. 173, ex. 41
+1	Vakanakaikahihaha	_	VERB	_	_	0	root	_	Gloss=3PL-N:CLASS-CAUS-arrive-distance-THEME
+2	ada	_	DET	_	_	4	det	_	Gloss=DEM,m
+3	namajaja	_	ADJ	_	_	4	amod	_	Gloss=above-directional-directional
+4	kajinaboni	_	NOUN	_	_	5	nmod	_	Gloss=GEN-wasp-f
+5	kagorana	_	NOUN	_	_	1	obl	_	Gloss=GEN-house-m
+6	kakaraho	_	ADJ	_	_	5	amod	_	Gloss=N:CLASS-big|SpaceAfter=No
+7	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_1.42
+# text = Safini ava miinira anamaakarirarivini.
+# text_seg = Safini ava mii-ni-ra a-na-maakari-rari-vini.
+# hb_glosses: sun tree extremity-f-OBJ STATVZR-CAUS-near-meet-DEP:TRANS
+# text_en: They came near when the sun was in the tree tops.
+# source: hb, p. 173, ex. 42
+# comment / question: one missing relation between safini and ava
+# note/fix: again, temporarily mared dep
+1	Safini	_	NOUN	_	_	4	obl	_	Gloss=sun
+2	ava	_	NOUN	_	_	1	obl	_	Gloss=tree
+3	miinira	_	NOUN	_	_	2	compound	_	Gloss=extremity-f-OBJ
+4	anamaakarirarivini	_	VERB	_	_	0	root	_	Gloss=STATVZR-CAUS-near-meet-DEP:TRANS|SpaceAfter=No
+5	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = HB_1.43
+# text = Thoronihi kaimonira onasirohi.
+# text_seg = Thoroni-hi kaimoni-ra o-na-siro-hi.
+# hb_glosses: remove:guts-NOMLZR purpose-OBJ 1SG-CAUS-break:open:turtle:shell-THEME
+# text_en: For the purpose of taking out guts, I'm opening up the turtle.
+# source: hb, p. 173, ex. 43
+1	Thoronihi	_	NOUN	_	_	3	obl	_	Gloss=remove:guts-NOMLZR
+2	kaimonira	_	SCONJ	_	_	1	mark	_	Gloss=purpose-OBJ
+3	onasirohi	_	VERB	_	_	0	root	_	Gloss=1SG-CAUS-break:open:turtle:shell-THEME|SpaceAfter=No
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+########## chpt. 2: parataxis ##########
+# sent_id = HB_2.44
+# text = Aoga'ihi, aki'dama'ihi, adari'ihi, kajo'atharari'ihi, abononi kanahahaniha'ihi.
+# text_seg = A-oga-'i-hi, a-ki'dama-'i-hi, adari-'i-hi, kajo'atha-rari-'i-hi, abono-ni ka-na-hahani-ha-'i-hi.
+# hb_glosses: 1PL-flee- ASP-THEME 1PL-embark-ASP-THEME fall-ASP-THEME knee-downwards-ASP-THEME self-f BEN-CAUS-laugh-ACTION-ASP-THEME
+# text_en: We fled, we embarked, she fell down, she fell on her knees, she laughed at herself.
+# source: hb, p. 174, ex.44
+1	Aoga'ihi	_	VERB	_	_	0	root	_	Gloss=1PL-flee- ASP-THEME|SpaceAfter=No
+2	,	_	PUNCT	_	_	1	punct	_	_
+3	aki'dama'ihi	_	VERB	_	_	1	conj	_	Gloss=1PL-embark-ASP-THEM|SpaceAfter=No
+4	,	_	PUNCT	_	_	1	punct	_	_
+5	adari'ihi	_	VERB	_	_	1	conj	_	Gloss=fall-ASP-THEME|SpaceAfter=No
+6	,	_	PUNCT	_	_	1	punct	_	_
+7	kajo'atharari'ihi	_	VERB	_	_	1	conj	_	Gloss=knee-downwards-ASP-THEME|SpaceAfter=No
+8	,	_	PUNCT	_	_	1	punct	_	_
+9	abononi	_	PRON	_	_	10	obl	_	Gloss=self-f
+10	kanahahaniha'ihi	_	VERB	_	_	1	conj	_	Gloss=BEN-CAUS-laugh-ACTION-ASP-THEME|SpaceAfter=No
+11	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_2.45
+# text = Akarahokahi, akakhahi, akakhahi, akarahoka'ianahi, akakharimananihi vaakaasia'aha adani kodiisai.
+# text_seg = A-ka-rahoka-hi, a-ka-kha-hi, a-ka-kha-hi, a-ka-rahoka-'iana-hi, a-ka-kha-rimanani-hi va-ak-aasia-'a-ha adani kodi-isai.
+# hb_glosses: 1PL-N:CLASS-drag-THEME 1PL-canoe-MOT-THEME 1PL-canoe-MOT-THEME 1PL-canoe-drag-again-THEME 1PL-canoe-MOT-stream-THEME 3PL-canoe-sink-ASP-THEME DEM:PL my-children
+# text_en: We dragged the canoe, we went, we went, we dragged again, we went along the stream and my children sank in their canoe.
+# source: hb, p. 174, ex. 45
+1	Akarahokahi	_	VERB	_	_	0	root	_	Gloss=1PL-N:CLASS-drag-THEME|SpaceAfter=No
+2	,	_	PUNCT	_	_	1	punct	_	_
+3	akakhahi	_	VERB	_	_	1	conj	_	Gloss=1PL-canoe-MOT-THEME|SpaceAfter=No
+4	,	_	PUNCT	_	_	1	punct	_	_
+5	akakhahi	_	VERB	_	_	1	conj	_	Gloss=1PL-canoe-MOT-THEME|SpaceAfter=No
+6	,	_	PUNCT	_	_	1	punct	_	_
+7	akarahoka'ianahi	_	VERB	_	_	1	conj	_	Gloss=1PL-canoe-drag-again-THEME|SpaceAfter=No
+8	,	_	PUNCT	_	_	1	punct	_	_
+9	akakharimananihi	_	VERB	_	_	1	conj	_	Gloss=1PL-canoe-MOT-stream-THEME
+10	vaakaasia'aha	_	VERB	_	_	1	conj	_	Gloss=3PL-canoe-sink-ASP-THEME
+11	adani	_	DET	_	_	12	det	_	Gloss=DEM:PL
+12	kodiisai	_	NOUN	_	_	10	nsubj	_	Gloss=my-children|SpaceAfter=No
+13	.	_	PUNCT	_	_	1	punct	_	_
+
+# ###sent_id = HB_2.46 / is intentionally left out at this stage due to insufficient knowledge about how to annotate it
+# sent_id = HB_2.47
+# text = Kojaharia vagahina'aha, moko itxania xikara ahapini fori hiki vagahina'aha.
+# text_seg = Kojahari-a va-gahina-'a-ha, moko itxa-ni-a xikara ahapi-ni fori hi-ki va-gahina-'a-ha.
+# hb_glosses: banana:mush-OBL 3PL-receive-ASP-THEME container many:small-f-OBL cup size-f be:like AUX-NONTHEME 3PL-receive-ASP-THEME
+# text_en: They received banana mush, in vessels the size of a cup they received it.
+# source: hb, p. 174, ex. 47
+# comment / question: missing relation
+1	Kojaharia	_	NOUN	_	_	2	obj	_	Gloss=banana:mush-OBL
+2	vagahina'aha	_	VERB	_	_	0	root	_	Gloss=3PL-receive-ASP-THEME|SpaceAfter=No
+3	,	_	PUNCT	_	_	2	punct	_	_
+4	moko	_	NOUN	_	_	10	obl	_	Gloss=container
+5	itxania	_	ADJ	_	_	4	amod	_	Gloss=many:small-f-OBL
+6	xikara	_	NOUN	_	_	7	nmod	_	Gloss=cup
+7	ahapini	_	NOUN	_	_	8	obj	_	Gloss=size-f
+8	fori	_	VERB	_	_	4	acl	_	Gloss=be:like
+9	hiki	_	AUX	_	_	8	aux	_	Gloss=AUX-NONTHEME
+10	vagahina'aha	_	VERB	_	_	2	advcl	_	Gloss=3PL-receive-ASP-THEME|SpaceAfter=No
+11	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_2.48
+# text = Ida hanaja kadaamia hojahi.
+# text_seg = Ida hanaja kada-amia hoja-hi.
+# hb_glosses: DEM,f where your-mother be-THEME
+# text_en: Where is your mother?
+# source: hb, p. 175, ex. 48
+1	Ida	_	DET	_	_	3	det	_	Gloss=DEM,f
+2	hanaja	_	ADV	_	_	4	advmod	_	Gloss=where
+3	kadaamia	_	NOUN	_	_	4	nsubj	_	Gloss=your-mother
+4	hojahi	_	VERB	_	_	0	root	_	Gloss=be-THEME|SpaceAfter=No
+5	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = HB_2.49
+# text = Adavani hanaja avikha'aha vakadi'bai arihaki.
+# text_seg = Ada-vani hanaja a-vi-kha-'a-ha vakadi-'bai ari-ha-ki.
+# hb_glosses: DEM-CONTR where away-3PL-MOT-ASP-THEME their-food 1PL-eat-DESC
+# text_en: Those ones, where have they gone whose food we ate?
+# source: hb, p. 175, ex. 49
+1	Adavani	_	PRON	_	_	3	nsubj	_	Gloss=DEM-CONTR
+2	hanaja	_	ADV	_	_	3	advmod	_	Gloss=where
+3	avikha'aha	_	VERB	_	_	0	root	_	Gloss=away-3PL-MOT-ASP-THEME
+4	vakadi'bai	_	NOUN	_	_	1	nmod:poss	_	Gloss=their-food
+5	arihaki	_	VERB	_	_	4	acl:relcl	_	Gloss=1PL-eat-DESC|SpaceAfter=No
+6	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = HB_2.50
+# text = Oniaro imidia ahororari'iki Siri.
+# text_seg = Oniaro imidia ahoro-rari-'i-ki Siri.
+# hb_glosses: S:EMPH,f first sink-downwards-ASP-NONTHEME Siri
+# text_en: She was the first one to sink down (into the mud), it was Siri.
+# source: hb, p. 175, ex. 50
+1	Oniaro	_	PRON	_	_	3	nsubj	_	Gloss=S:EMPH,f
+2	imidia	_	ADJ	_	_	1	nmod	_	Gloss=first
+3	ahororari'iki	_	VERB	_	_	0	root	_	Gloss=sink-downwards-ASP-NONTHEME
+4	Siri	_	PROPN	_	_	1	parataxis	_	Gloss=Siri|SpaceAfter=No
+5	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = HB_2.51
+# text = Franciscoa sa'ani biagathi'avini hida kodiisai.
+# text_seg = Francisco-a sa'a-ni bi-a-gathi-'a-vini hida kodi-isai.
+# hb_glosses: Francisco-ERG hand-f 3SG-N:CLASS-grasp-ASP-DEP:TRANS DEM,f my-daughter
+# text_en: Francisco grasped my daughter by the hand. / Francisco grasped my daughter's hand.
+# source: hb, p. 175, ex. 51
+1	Franciscoa	_	PROPN	_	_	3	nsubj	_	Gloss=Francisco-ERG
+2	sa'ani	_	NOUN	_	_	5	nmod:poss	_	Gloss=hand-f
+3	biagathi'avini	_	VERB	_	_	0	root	_	Gloss=3SG-N:CLASS-grasp-ASP-DEP:TRANS
+4	hida	_	DET	_	_	2	det	_	Gloss=DEM,f
+5	kodiisai	_	NOUN	_	_	3	obj	_	Gloss=my-daughter|SpaceAfter=No
+6	.	_	PUNCT	_	_	3	punct	_	_
+
+########## chpt. 3: ellipsis ##########
+# sent_id = HB_3.52
+# text = Binoba'ianahi.
+# text_seg = Bi-n-oba-'iana-hi.
+# hb_glosses: 3SG-CAUS-chop-again-THEME,f
+# text_en: She chopped it again.
+# source: hb, p. 176, ex. 52
+1	Binoba'ianahi	_	VERB	_	_	0	root	_	Gloss=3SG-CAUS-chop-again-THEME,f|SpaceAfter=No
+2	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_3.53
+# text = Ovari hiki nivaravaraki, nihoariha jaboni varavaraki, Vararibori vani ada varavaraha afosiaga.
+# text_seg = Ovari hiki ni-varavara-ki, ni-hoariha jaboni varavara-ki, Vararibori vani ada varavara-ha afo-siaga.
+# hb_glosses: S:EMPH CONTR NEG-talk-NONTHEME NEG-other also talk-NONTHEME Vararibori CONTR DEM,m talk-THEME,m ADVBLZR-following
+# text_en: That one he didn't speak, nor did the other one speak, it was Vararibori that came following that spoke.
+# source: hb, p. 
+1	Ovari	_	PRON	_	_	3	nsubj	_	Gloss=S:EMPH
+2	hiki	_	DET	_	_	1	det	_	Gloss=CONTR
+3	nivaravaraki	_	VERB	_	_	0	root	_	Gloss=NEG-talk-NONTHEME|SpaceAfter=No
+4	,	_	PUNCT	_	_	3	punct	_	_
+5	nihoariha	_	ADJ	_	_	7	nsubj	_	Gloss=NEG-other
+6	jaboni	_	ADV	_	_	7	advmod	_	Gloss=also
+7	varavaraki	_	VERB	_	_	3	conj	_	Gloss=talk-NONTHEME|SpaceAfter=No
+8	,	_	PUNCT	_	_	3	punct	_	_
+9	Vararibori	_	PROPN	_	_	12	nsubj	_	Gloss=Vararibori
+10	vani	_	DET	_	_	9	advmod:emph	_	Gloss=CONTR
+11	ada	_	DET	_	_	10	det	_	Gloss=DEM,m
+12	varavaraha	_	VERB	_	_	3	conj	_	Gloss=talk-THEME,m
+13	afosiaga	_	ADV	_	_	9	acl	_	Gloss=ADVBLZR-following|SpaceAfter=No
+14	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = HB_3.54
+# text = Hora paha.
+# text_seg = Ho-ra paha.
+# hb_glosses: me-OBJ water
+# text_en: To me water / Give me some water.
+# source: hb, p. 176, ex. 54
+1	Hora	_	PRON	_	_	0	root	_	Gloss=me-OBJ
+2	paha	_	NOUN	_	_	1	obj	_	Gloss=water|SpaceAfter=No
+3	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_3.55
+# text = Ikapahahamaniki'i?
+# text_seg = I-ka-paha-ha-mani-ki-'i?
+# hb_glosses: 2SG-VBLZR-water-ACTION-Q-NONTHEME-2SG
+# text_en: Are you going to get water?
+# source: hb, p. 177, ex. 55
+1	Ikapahahamaniki'i	_	VERB	_	_	0	root	_	Gloss=2SG-VBLZR-water-ACTION-Q-NONTHEME-2SG|SpaceAfter=No
+2	?	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_3.56
+# text = Ha'a, okapahahakiho.
+# text_seg = Ha'a, o-ka-paha-ha-ki-ho.
+# hb_glosses: yes 1SG-VBLZR-water-ACTION-NONTHEME-1SG
+# text_en: Yes, I am going to get water.
+# source: hb, p. 177, ex. 56
+1	Ha'a	_	INTJ	_	_	3	obl	_	Gloss=yes|SpaceAfter=No
+2	,	_	PUNCT	_	_	3	punct	_	_
+3	okapahahakiho	_	VERB	_	_	0	root	_	Gloss=1SG-VBLZR-water-ACTION-NONTHEME-1SG|SpaceAfter=No
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = HB_3.57
+# text = Nahina mani hida inofija?
+# text_seg = Nahina mani hida i-nofi-ja?
+# hb_glosses: what COP DEM,f 2SG-want-IMMED
+# text_en: What do you want?
+# source: hb, p. 177, ex. 57
+1	Nahina	_	PRON	_	_	3	nsubj	_	Gloss=what
+2	mani	_	AUX	_	_	3	cop	_	Gloss=COP
+3	hida	_	PRON	_	_	0	root	_	Gloss=DEM,f
+4	inofija	_	VERB	_	_	3	acl:relcl	_	Gloss=2SG-want-IMMED|SpaceAfter=No
+5	?	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = HB_3.58
+# text = Paha mani hida onofija.
+# text_seg = Paha mani hida o-nofi-ja.
+# hb_glosses: water COP DEM,f 1SG-want-IMMED
+# text_en: I want some water. OR Water is it that I want (own translation)?
+# source: hb, p. 177, ex. 58
+1	Paha	_	NOUN	_	_	3	nsubj	_	Gloss=water
+2	mani	_	AUX	_	_	3	cop	_	Gloss=COP
+3	hida	_	PRON	_	_	0	root	_	Gloss=DEM,f
+4	onofija	_	VERB	_	_	3	acl:relcl	_	Gloss=1SG-want-IMMED|SpaceAfter=No
+5	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = HB_3.59
+# text = Hanaja?
+# text_seg = Hana-ja?
+# hb_glosses: where-directional
+# text_en: Where? (have they gone?)
+# source: hb, p. 177, ex. 59
+1	Hanaja	_	ADV	_	_	0	root	_	Gloss=where-directional|SpaceAfter=No
+2	?	_	PUNCT	_	_	1	punct	_	_
+
+########## chpt. 4: reflexives and reciprocals ##########
+# sent_id = HB_4.60
+# text = Abonora nanokia'aha.
+# text_seg = Abono-ra na-noki-a-'a-ha.
+# hb_glosses: self-OBJ CAUS-see-DETRANSVZR-ASP-THEME
+# text_en: He showed himself.
+# source: hb, p. 178, ex. 60
+1	Abonora	_	PRON	_	_	2	obj	_	Gloss=self-OBJ
+2	nanokia'aha	_	VERB	_	_	0	root	_	Gloss=CAUS-see-DETRANSVZR-ASP-THEME|SpaceAfter=No
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_4.61
+# text = Mokitiroa oabono okavapavakarihavini.
+# text_seg = Mokitiro-a o-abono o-ka-va-pavakari-ha-vini.
+# hb_glosses: mosquito:net-DEMOT:Q 1SG-self 1SG-VBLZR-COMIT-buy-distance-DEP:TRANS
+# text_en: I bought myself the mosquito net.
+# source: hb, p. 178, ex. 61
+1	Mokitiroa	_	NOUN	_	_	3	obj	_	Gloss=mosquito:net-DEMOT:Q
+2	oabono	_	PRON	_	_	3	iobj	_	Gloss=1SG-self
+3	okavapavakarihavini	_	VERB	_	_	0	root	_	Gloss=1SG-VBLZR-COMIT-buy-distance-DEP:TRANS|SpaceAfter=No
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = HB_4.62
+# text = Abonora ni'aha.
+# text_seg = Abono-ra ni-'a-ha.
+# hb_glosses: self-OBJ say-TRNSTVZR-THEME
+# text_en: He said to himself.
+# source: hb, p. 178, ex. 62
+# comment / question: direct object is absent
+1	Abonora	_	PRON	_	_	2	iobj	_	Gloss=self-OBJ
+2	ni'aha	_	VERB	_	_	0	root	_	Gloss=say-TRNSTVZR-THEME|SpaceAfter=No
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_4.63
+# text = Vaabono vakanahahaniha'aha.
+# text_seg = Va-abono va-ka-na-hahani-ha-'a-ha.
+# hb_glosses: 3PL-self 3PL-VBLZR-CAUS-laugh-ACTION-ASP-THEME
+# text_en: They laughed at themselves.
+# source: hb, p. 178, ex. 63
+1	Vaabono	_	PRON	_	_	2	obl	_	Gloss=3PL-self
+2	vakanahahaniha'aha	_	VERB	_	_	0	root	_	Gloss=3PL-VBLZR-CAUS-laugh-ACTION-ASP-THEME|SpaceAfter=No
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_4.64
+# text = Abonora kajoraikaimonivini.
+# text_seg = Abono-ra ka-jorai-kaimoni-vini.
+# hb_glosses: self-OBJ POSSN:VBLZR-mat-PURP-DEP:TRANS
+# text_en: (He broke off some leaves) in order to make himself a mat.'
+# source: hb, p. 179, ex. 64
+1	Abonora	_	PRON	_	_	2	obl	_	Gloss=self-OBJ
+2	kajoraikaimonivini	_	VERB	_	_	0	root	_	Gloss=POSSN:VBLZR-mat-PURP-DEP:TRANS|SpaceAfter=No
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_4.65
+# text = Oabono okavi'baihavini.
+# text_seg = O-abono o-ka-vi-'bai-ha-vini.
+# hb_glosses: 1SG-self 1SG-BEN-COMIT-food-ACTION-DEP:TRANS
+# text_en: I went to get myself food.
+# source: hb, p. 179, ex. 64
+1	Oabono	_	PRON	_	_	2	obl	_	Gloss=1SG-self
+2	okavi'baihavini	_	VERB	_	_	0	root	_	Gloss=1SG-BEN-COMIT-food-ACTION-DEP:TRANS|SpaceAfter=No
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_4.66
+# text = Abononi ko'baiha'ihi.
+# text_seg = Abono-ni ko-'bai-ha-'i-hi.
+# hb_glosses: self-f POSSN:VBLZR-food-ACTION-ASP-THEME
+# text_en: She is preparing food for herself.
+# source: hb, p. 179, ex. 66
+1	Abononi	herself	PRON	_	_	2	obl	_	Gloss=self-f
+2	ko'baiha'ihi	cooking	VERB	_	_	0	root	_	Gloss=POSSN:VBLZR-food-ACTION-ASP-THEME|SpaceAfter=No
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_4.67
+# text = Hora ko'baiha'ihi.
+# text_seg = Ho-ra ko-'bai-ha-'i-hi.
+# hb_glosses: me-OBJ POSSN:VBLZR-food-ACTION-ASP-THEME
+# text_en: She prepared food for me.
+# source: hb, p. 179, ex. 67
+1	Hora	_	PRON	_	_	2	obl	_	Gloss=me-OBJ
+2	ko'baiha'ihi	_	VERB	_	_	0	root	_	Gloss=POSSN:VBLZR-food-ACTION-ASP-THEME|SpaceAfter=No
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_4.68
+# text = Osa'a hida onobaja.
+# text_seg = O-sa'a hida o-n-oba-ja.
+# hb_glosses: 1SG-hand DEM,f 1SG-CAUS-chop-IMMED
+# text_en: I've chopped my hand.
+# source: hb, p- 179, ex. 68
+1	Osa'a	hand	NOUN	_	_	3	obj	_	Gloss=1SG-hand
+2	hida	the	DET	_	_	1	det	_	Gloss=DEM,f
+3	onobaja	chop	VERB	_	_	0	root	_	Gloss=1SG-CAUS-chop-IMMED|SpaceAfter=No
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = HB_4.69
+# text = Vaabono vakanofikhamavini.
+# text_seg = Va-abono va-ka-nofi-khama-vini.
+# hb_glosses: 3PL-self 3PL-DISTRIB-like-DISTRIB-DEP:TRANS
+# text_en: They like each other.
+# source: hb, p. 179, ex. 69
+1	Vaabono	_	PRON	_	_	2	obj	_	Gloss=3PL-self
+2	vakanofikhamavini	_	VERB	_	_	0	root	_	Gloss=3PL-DISTRIB-like-DISTRIB-DEP:TRANS|SpaceAfter=No
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_4.70
+# text = Ariabono aakaragakhamavini.
+# text_seg = Ari-abono a-a-karaga-khama-vini.
+# hb_glosses: 1PL-self 1PL-DISTRIB-find-DISTRIB-DERTRANS
+# text_en: We found each other.
+# source: hb, p. 180, ex. 70
+1	Ariabono	_	PRON	_	_	2	obj	_	Gloss=1PL-self
+2	aakaragakhamavini	_	VERB	_	_	0	root	_	Gloss=1PL-DISTRIB-find-DISTRIB-DERTRANS|SpaceAfter=No
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_4.71
+# text = Abonoi kanagahararikhamavini.
+# text_seg = Abono-i ka-nagaha-rari-khama-vini.
+# hb_glosses: self-NONSPECFC DISTRIB-throw:at-down-DISTRIB-DEP:TRANS
+# text_en: They were throwing (wet sand) at each other.
+# source: hb, p. 180, ex. 71
+1	Abonoi	reciprocal	PRON	_	_	2	obl	_	Gloss=self-NONSPECFC
+2	kanagahararikhamavini	throw	VERB	_	_	0	root	_	Gloss=DISTRIB-throw:at-down-DISTRIB-DEP:TRANS|SpaceAfter=No
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_4.72
+# text = Vaabono avakogakhamavini hiki ida vakadinahina.
+# text_seg = Va-abono a-va-ko-ga-khama-vini hi-ki ida vakadi-nahina.
+# hb_glosses: 3PL-self know-3PL-DISTRIB-know-DISTRIB-DEP:TRANS AUX-NONTHEME DEM,f their-things
+# text_en: They reciprocally knew each other's things. (i.e., 'They shared each other's possessions.)
+# source: hb, p. 180, ex. 72
+1	Vaabono	_	PRON	_	_	5	nmod:poss	_	Gloss=3PL-self
+2	avakogakhamavini	_	VERB	_	_	0	root	_	Gloss=know-3PL-DISTRIB-know-DISTRIB-DEP:TRANS
+3	hiki	_	AUX	_	_	2	aux	_	Gloss=AUX-NONTHEME
+4	ida	_	DET	the	_	1	det	_	Gloss=DEM,f
+5	vakadinahina	_	NOUN	thing	_	2	obj	_	Gloss=their-things|SpaceAfter=No
+6	.	_	PUNCT	_	_	2	punct	_	_
+
+########## chpt. 5: passives ##########
+# sent_id = HB_5.73
+# text = Mina'di vania binoba'ianahi ida Kasai.
+# text_seg = Mina'di vani-a bi-n-oba-'iana-hi ida Kasai.
+# hb_glosses: electric:eel CONTR-ERG 3SG-CAUS-shock-again-THEME DEM,f Kasai
+# text_en: The eel shocked Kasai again.
+# source: hb, p. 181, ex. 73
+1	Mina'di	_	NOUN	_	_	3	nsubj	_	Gloss=electric:eel
+2	vania	_	ADV	_	_	1	advmod:emph	_	Gloss=CONTR-ERG
+3	binoba'ianahi	_	VERB	_	_	0	root	_	Gloss=3SG-CAUS-shock-again-THEME
+4	ida	_	DET	_	_	5	det	_	Gloss=DEM,f
+5	Kasai	_	PROPN	_	_	3	obj	_	Gloss=Kasai|SpaceAfter=No
+6	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = HB_5.74
+# text = Obahi hi'ianahi ida Kasai mina'dia.
+# text_seg = Oba-hi hi-'iana-hi ida Kasai mina'di-a.
+# hb_glosses: shock-NOMLZR AUX-again-THEME DEM,f Kasai eel-by
+# text_en: Kasai was shocked again by the eel.
+# source: hb, p. 181, ex. 74
+1	Obahi	_	VERB	_	_	0	root	_	Gloss=shock-NOMLZR
+2	hi'ianahi	_	AUX	_	_	1	aux:pass	_	Gloss=AUX-again-THEME
+3	ida	_	DET	_	_	4	det	_	Gloss=DEM,f
+4	Kasai	_	PROPN	_	_	1	nsubj:pass	_	Gloss=Kasai
+5	mina'dia	_	NOUN	_	_	1	obl:agent	_	Gloss=eel-by|SpaceAfter=No
+6	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_5.75
+# text = Binoki'aha ada isai ananahi hina.
+# text_seg = Bi-noki-'a-ha ada isai anana-hi hi-na.
+# hb_glosses: 3SG-see-ASP-THEME DEM,m boy bite-NOMLZR AUX-DEP:INTRANS
+# text_en: He saw the boy being bitten.
+# source: hb, p. 181, ex. 75
+1	Binoki'aha	_	VERB	_	_	0	root	_	Gloss=3SG-see-ASP-THEME
+2	ada	_	DET	_	_	3	det	_	Gloss=DEM,m
+3	isai	_	NOUN	_	_	1	obj	_	Gloss=boy
+4	ananahi	_	VERB	_	_	3	acl	_	Gloss=bite-NOMLZR
+5	hina	_	AUX	_	_	4	aux:pass	_	Gloss=AUX-DEP:INTRANS|SpaceAfter=No
+6	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_5.76
+# text = Nionokiki ida hado osahi hini.
+# text_seg = Ni-o-noki-ki ida hado o-sa-hi hi-ni.
+# hb_glosses: NEG-1SG-see-NONTHEME DEM,f knife away-take-NOMLZR AUX-DEP:INTRANS
+# text_en: I did not see the knife being taken away.
+# source: hb, p. 181, ex. 76
+1	Nionokiki	_	VERB	_	_	0	root	_	Gloss=NEG-1SG-see-NONTHEME
+2	ida	_	DET	_	_	3	det	_	Gloss=DEM,f
+3	hado	_	NOUN	_	_	1	obj	_	Gloss=knife
+4	osahi	_	VERB	_	_	3	acl	_	Gloss=away-take-NOMLZR
+5	hini	_	AUX	_	_	4	aux:pass	_	Gloss=AUX-DEP:INTRANS|SpaceAfter=No
+6	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_5.77
+# text = Onofiki ida hado osamaini.
+# text_seg = O-nofi-ki ida hado o-sa-mai-ni.
+# hb_glosses: 1SG-want-NONTHEME DEM,f knife away-take-nearby:house-DEP:INTRANS
+# text_en: I want the knife taken to the other house.
+# source: hb, p. 181/182, ex. 77
+1	Onofiki	_	VERB	_	_	0	root	_	Gloss=1SG-want-NONTHEME
+2	ida	_	DET	_	_	3	det	_	Gloss=DEM,f
+3	hado	_	NOUN	_	_	1	obj	_	Gloss=knife
+4	osamaini	_	VERB	_	_	3	acl	_	Gloss=away-take-nearby:house-DEP:INTRANS|SpaceAfter=No
+5	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_5.78
+# text = Siroa bikaja'oriavini hiki ada kasi'i katavahari hani hina ada vanafana.
+# text_seg = Siro-a bi-kaja'oria-vini hi-ki ada kasi'i katavahari ha-ni hi-na ada va-nafa-na.
+# hb_glosses: Species:of:bird-ERG 3SG-be:annoyed:at-DEP:TRANS AUX-NONTHEME DEM,m toucan eat-DEP:INTRANS,f AUX-DEP:INTRANS,m DEM,m 3PL-egg-m
+# text_en: The birds were annoyed at the toucans that their eggs were being eaten (by toucans). / The birds were annoyed at their eggs being eaten by the toucans.
+# source: hb, p. 182, ex. 78
+1	Siroa	_	NOUN	_	_	2	nsubj	_	Gloss=Species:of:bird-ERG
+2	bikaja'oriavini	_	VERB	_	_	0	root	_	Gloss=3SG-be:annoyed:at-DEP:TRANS
+3	hiki	_	AUX	_	_	2	aux	_	Gloss=AUX-NONTHEME
+4	ada	_	DET	_	_	5	det	_	Gloss=DEM,m
+5	kasi'i	_	NOUN	_	_	2	obj	_	Gloss=toucan
+6	katavahari	_	NOUN	_	_	5	compound	_	_
+7	hani	_	VERB	_	_	2	ccomp	_	Gloss=eat-DEP:INTRANS,f
+8	hina	_	AUX	_	_	7	aux:pass	_	Gloss=AUX-DEP:INTRANS,m
+9	ada	_	PRON	_	_	7	obl:agent	_	Gloss=DEM,m
+10	vanafana	_	NOUN	_	_	7	nsubj:pass	_	Gloss=3PL-egg-m|SpaceAfter=No
+11	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_5.79
+# text = Hirari kara'ohi hiki sipatihira havini biosanivini.
+# text_seg = Hirari kara'o-hi hi-ki sipatihi-ra ha-vini bi-osani-vini.
+# hb_glosses: pig shoot:with:gun-NOMLZR AUX-NONTHEME bananas-OBJ eat-DEP:TRANS 3SG-blame-DEP:TRANS
+# text_en: The pig was shot because he blamed it for eating the bananas.
+# source: hb, p. 183, ex. 79
+1	Hirari	_	NOUN	_	_	2	nsubj:pass	_	Gloss=pig
+2	kara'ohi	_	VERB	_	_	0	root	_	Gloss=shoot:with:gun-NOMLZR
+3	hiki	_	AUX	_	_	2	aux:pass	_	Gloss=AUX-NONTHEME
+4	sipatihira	_	NOUN	_	_	5	obj	_	Gloss=bananas-OBJ
+5	havini	_	VERB	_	_	6	ccomp	_	Gloss=eat-DEP:TRANS
+6	biosanivini	_	VERB	_	_	2	advcl	_	Gloss=3SG-blame-DEP:TRANS|SpaceAfter=No
+7	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_5.80a
+# text = Bajarona vahabini oni rida ni'ani hija.
+# text_seg = Ba-jarona vahabini oni rida ni-'a-ni hi-ja.
+# hb_glosses: NONSPECFC-bone maybe DEM,f be:dented AUX-TRNSTVZR-DEP:INTRANS AUX-IMMED
+# text_en: Maybe it was by a bone that it was dented.
+# source: hb, p. 183, ex. 80a
+1	Bajarona	_	NOUN	_	_	4	obl:agent	_	Gloss=NONSPECFC-bone
+2	vahabini	_	ADV	_	_	4	advmod	_	Gloss=maybe
+3	oni	_	PRON	_	_	4	nsubj	_	Gloss=DEM,f
+4	rida	_	VERB	_	_	0	root	_	Gloss=be:dented
+5	ni'ani	_	AUX	_	_	4	aux	_	Gloss=AUX-TRNSTVZR-DEP:INTRANS
+6	hija	_	AUX	_	_	4	aux	_	Gloss=AUX-IMMED|SpaceAfter=No
+7	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = HB_5.80b
+# text = Rihai hini vahabini bajarona obani hini.
+# text_seg = Riha-i hi-ni vahabini ba-jarona oba-ni hi-ni.
+# hb_glosses: lend-NOMLZR AUX-DEP:INTRANS maybe NONSPECFC-bone chop-DEP:INTRANS AUX-DEP:INTRANS
+# text_en: While it was lent maybe it was chopped by a bone.
+# source: hb, p. 183, ex. 80b
+1	Rihai	_	ADV	_	_	5	advmod	_	Gloss=lend-NOMLZR
+2	hini	_	AUX	_	_	1	aux:pass	_	Gloss=AUX-DEP:INTRANS
+3	vahabini	_	ADV	_	_	5	advmod	_	Gloss=maybe
+4	bajarona	_	NOUN	_	_	5	obl:agent	_	Gloss=NONSPECFC-bone
+5	obani	_	VERB	_	_	0	root	_	Gloss=chop-DEP:INTRANS
+6	hini	_	AUX	_	_	5	aux:pass	_	Gloss=AUX-DEP:INTRANS|SpaceAfter=No
+7	.	_	PUNCT	_	_	5	punct	_	_
+
+# ####sent_id = HB_5.81 / left out
+# sent_id = HB_5.82
+# text = Masi vania biananira ada.
+# text_seg = Masi vani-a bi-anani-ra ada.
+# hb_glosses: bat CONTR-ERG 3SG-bite-IMMED,m DEM,m
+# text_en: A bat bit him.
+# source: hb, p. 183, ex. 82
+1	Masi	_	NOUN	_	_	3	nsubj	_	Gloss=bat
+2	vania	_	ADV	_	_	1	advmod:emph	_	Gloss=CONTR-ERG
+3	biananira	_	VERB	_	_	0	root	_	Gloss=3SG-bite-IMMED,m
+4	ada	_	PRON	_	_	3	obj	_	Gloss=DEM,m|SpaceAfter=No
+5	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = HB_5.83
+# text = Masia biananivini mani ida naabinina hija.
+# text_seg = Masi-a bi-anani-vini mani ida na-abini-na hi-ja.
+# hb_glosses: bat-ERG 3SG-bite-DEP:TRANS COP DEM,neut CAUS-die-DEP:INTRANS,m AUX-IMMED
+# text_en: Because a bat bit him (cock) he was caused to die.
+# source: hb, p. 184, ex. 83
+# status: incomplete
+1	Masia	_	NOUN	_	_	2	nsubj	_	Gloss=bat-ERG
+2	biananivini	_	VERB	_	_	5	advcl	_	Gloss=3SG-bite-DEP:TRANS
+3	mani	_	AUX	_	_	2	aux	_	Gloss=COP
+4	ida	_	PRON	_	_	2	obj	_	Gloss=DEM,neut
+5	naabinina	_	VERB	_	_	0	root	_	Gloss=CAUS-die-DEP:INTRANS,m
+6	hija	_	AUX	_	_	5	aux	_	Gloss=AUX-IMMED|SpaceAfter=No
+7	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = HB_5.84
+# text = Safinira anapahisirivini.
+# text_seg = Safini-ra a-na-pahisiri-vini.
+# hb_glosses: sun-OBJ STATVZR-CAUS-cold-DEP:TRANS
+# text_en: (She wanted) the sun to become cool.
+# source: hb, p. 184, ex. 83
+# status: incomplete
+1	Safinira	_	NOUN	_	_	2	nsubj	_	Gloss=sun-OBJ
+2	anapahisirivini	_	VERB	_	_	0	root	_	Gloss=STATVZR-CAUS-cold-DEP:TRANS|SpaceAfter=No
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+########## chpt. 6: causatives ##########
+# sent_id = HB_6.85a
+# text = Txinaki hida ihi'ai.
+# text_seg = Txina-ki hida ihi'ai.
+# hb_glosses: sweet-NONTHEME DEM,f fruit
+# text_en: This fruit is sweet.
+# source: hb, p. 184, ex. 85a
+1	Txinaki	_	ADJ	_	_	0	root	_	Gloss=sweet-NONTHEME
+2	hida	_	DET	_	_	3	det	_	Gloss=DEM,f
+3	ihi'ai	_	NOUN	_	_	1	amod	_	Gloss=fruit|SpaceAfter=No
+4	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_6.85b
+# text = Binatxinaki hida ihi'ai.
+# text_seg = Bi-na-txina-ki hida ihi'ai.
+# hb_glosses: 3SG-CAUS-sweet-NONTHEME DEM,f fruit
+# text_en: She caused the fruit to be sweet. (=She sweetened the fruit)
+# source: hb, p. 184, ex. 85b
+1	Binatxinaki	_	VERB	_	_	0	root	_	Gloss=3SG-CAUS-sweet-NONTHEME
+2	hida	_	DET	_	_	3	det	_	Gloss=DEM,f
+3	ihi'ai	_	NOUN	_	_	1	obj	_	Gloss=fruit|SpaceAfter=No
+4	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_6.86a
+# text = Asaraki ada isai.
+# text_seg = Asara-ki ada isai.
+# hb_glosses: cry-NONTHEME DEM,m child
+# text_en: The boy cried.
+# source: hb, p. 185, ex. 86a
+1	Asaraki	_	VERB	_	_	0	root	_	Gloss=cry-NONTHEME
+2	ada	_	DET	_	_	3	det	_	Gloss=DEM,m
+3	isai	_	NOUN	_	_	1	nsubj	_	Gloss=child|SpaceAfter=No
+4	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_6.86b
+# text = Binaasaraki ada isai.
+# text_seg = Bi-na-asara-ki ada isai.
+# hb_glosses: 3SG-CAUS-cry-NONTHEME DEM,m child
+# text_en: He caused the boy to cry.
+# source: hb, p. 185, ex. 86b
+1	Binaasaraki	_	VERB	_	_	0	root	_	Gloss=3SG-CAUS-cry-NONTHEME
+2	ada	_	DET	_	_	3	det	_	Gloss=DEM,m
+3	isai	_	NOUN	_	_	1	obj	_	Gloss=child|SpaceAfter=No
+4	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_6.87
+# text = Bianikha'ihi ida hado.
+# text_seg = Bi-a-ni-kha-'i-hi ida hado.
+# hb_glosses: 3SG-away-CAUS-MOT-ASP-THEME DEM,f knife
+# text_en: He went to fetch the knife. (=He went and caused the knife to come.)
+# source: hb, p. 185 ,ex. 87
+1	Bianikha'ihi	_	VERB	_	_	0	root	_	Gloss=3SG-away-CAUS-MOT-ASP-THEME
+2	ida	_	DET	_	_	3	det	_	Gloss=DEM,f
+3	hado	_	NOUN	_	_	1	obj	_	Gloss=knife|SpaceAfter=No
+4	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_6.88
+# text = Biarakha'ihi ida hado.
+# text_seg = Bi-a-ra-kha-'i-hi ida hado.
+# hb_glosses: 3SG-away-CAUS-MOT-ASP-THEME DEM,f knife
+# text_en: He handed over the knife. (=He remained and the knife went.)
+# source: hb, p.185, ex. 88
+1	Biarakha'ihi	_	VERB	_	_	0	root	_	Gloss=3SG-away-CAUS-MOT-ASP-THEME
+2	ida	_	DET	_	_	3	det	_	Gloss=DEM,f
+3	hado	_	NOUN	_	_	1	obj	_	Gloss=knife|SpaceAfter=No
+4	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_6.89
+# text = Biavikha'ihi ida hado.
+# text_seg = Bi-a-vi-kha-'i-hi ida hado.
+# hb_glosses: 3SG-away-COMIT-MOT-ASP-THEME DEM,f knife
+# text_en: He took the knife. (=He went and the knife went with him.)
+# source: hb, p. 185, ex. 89
+1	Biavikha'ihi	_	VERB	_	_	0	root	_	Gloss=3SG-away-COMIT-MOT-ASP-THEME
+2	ida	_	DET	_	_	3	det	_	Gloss=DEM,f
+3	hado	_	NOUN	_	_	1	obj	_	Gloss=knife|SpaceAfter=No
+4	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_6.90
+# text = Binokihi ida gora.
+# text_seg = Bi-noki-hi ida gora.
+# hb_glosses: 3SG-see-THEME DEM,f house
+# text_en: She saw the house.
+# source: hb, p. 186, ex. 90
+1	Binokihi	_	VERB	_	_	0	root	_	Gloss=3SG-see-THEME
+2	ida	_	DET	_	_	3	det	_	Gloss=DEM,f
+3	gora	_	NOUN	_	_	1	obj	_	Gloss=house|SpaceAfter=No
+4	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_6.91
+# text = Nokiahi ida gora.
+# text_seg = Noki-a-hi ida gora.
+# hb_glosses: see-DETRANSVZR-THEME DEM,f house
+# text_en: The house is visible.
+# source: hb, p. 186, ex.90
+1	Nokiahi	_	VERB	_	_	0	root	_	Gloss=see-DETRANSVZR-THEME
+2	ida	_	DET	_	_	3	det	_	Gloss=DEM,f
+3	gora	_	NOUN	_	_	1	nsubj	_	Gloss=house|SpaceAfter=No
+4	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_6.92
+# text = Binanokiahi ida gora.
+# text_seg = Bi-na-noki-a-hi ida gora.
+# hb_glosses: 3SG-CAUS-see-DETRANSVZR-THEME DEM,f house
+# text_en: He caused the house to become visible.
+# source: hb, p. 186, ex. 92
+1	Binanokiahi	_	VERB	_	_	0	root	_	Gloss=3SG-CAUS-see-DETRANSVZR-THEME
+2	ida	_	DET	_	_	3	det	_	Gloss=DEM,f
+3	gora	_	NOUN	_	_	1	obj	_	Gloss=house|SpaceAfter=No
+4	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_6.93
+# text = Hora Ønanokiahivini hihi ida gora.
+# text_seg = Ho-ra Ø-na-noki-a-hi-vini hi-hi ida gora.
+# hb_glosses: me-OBJ DITRANSTVZR-CAUS-see-DETRANSVZR-DITRANSTVZR-DEP:TRANS AUX-THEME DEM,f house
+# text_en: He showed me the house.
+# source: hb, p. 186, ex. 93
+1	Hora	_	PRON	_	_	2	iobj	_	Gloss=me-OBJ
+2	Ønanokiahivini	_	VERB	_	_	0	root	_	Gloss=DITRANSTVZR-CAUS-see-DETRANSVZR-DITRANSTVZR-DEP:TRANS
+3	hihi	_	AUX	_	_	2	aux	_	Gloss=AUX-THEME
+4	ida	_	DET	_	_	5	det	_	Gloss=DEM,f
+5	gora	_	NOUN	_	_	2	obj	_	Gloss=house|SpaceAfter=No
+6	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_6.94
+# text = Bihonariavini hiki ida isai pahara 'avivini.
+# text_seg = Bi-honaria-vini hi-ki ida isai paha-ra 'avi-vini.
+# hb_glosses: 3SG-order-DEP:TRANS AUX-NONTHEME DEM,f child water-OBJ drink-DEP:TRANS
+# text_en: She ordered the child to drink the water.
+# source: hb, p. 186, ex. 94
+1	Bihonariavini	_	VERB	_	_	0	root	_	Gloss=3SG-order-DEP:TRANS
+2	hiki	_	AUX	_	_	1	aux	_	Gloss=AUX-NONTHEME
+3	ida	_	DET	_	_	4	det	_	Gloss=DEM,f
+4	isai	_	NOUN	_	_	1	obj	_	Gloss=child
+5	pahara	_	NOUN	_	_	6	obj	_	Gloss=water-OBJ
+6	'avivini	_	VERB	_	_	1	xcomp	_	Gloss=drink-DEP:TRANS|SpaceAfter=No
+7	.	_	PUNCT	_	_	1	punct	_	_
+
+########## chpt. 7: comparatives and equatives ##########
+# ###sent_id = HB_6.95 / is intentionally left out at this stage due to insufficient knowledge about how to annotate it
+# sent_id = HB_7.96
+# text = Karahoki ida gora.
+# text_seg = Karaho-ki ida gora.
+# hb_glosses: big-DESC DEM,f house
+# text_en: The house is big.
+# source: hb, p. 187, ex. 96
+1	Karahoki	_	ADJ	_	_	0	root	_	Gloss=big-DESC
+2	ida	_	DET	_	_	3	det	_	Gloss=DEM,f
+3	gora	_	NOUN	_	_	1	amod	_	Gloss=house|SpaceAfter=No
+4	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_7.97
+# text = Mais karahoki ida vagorana.
+# text_seg = Mais karaho-ki ida va-gora-na.
+# hb_glosses: more big-DESC DEM,f 3PL-house-m
+# text_en: Their house is bigger.
+# source: hb, p. 187, ex. 97
+1	Mais	_	ADV	_	_	2	advmod	_	Gloss=more
+2	karahoki	_	ADJ	_	_	0	root	_	Gloss=big-DESC
+3	ida	_	DET	_	_	4	det	_	Gloss=DEM,f
+4	vagorana	_	NOUN	_	_	2	amod	_	Gloss=3PL-house-m|SpaceAfter=No
+5	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = HB_7.98
+# text = Nadaraki ida makari.
+# text_seg = Nadara-ki ida makari.
+# hb_glosses: red-DESC DEM,f cloth
+# text_en: The cloth is red.
+# source: hb, p. 187, ex. 98
+1	Nadaraki	_	ADJ	_	_	0	root	_	Gloss=red-DESC
+2	ida	_	DET	_	_	3	det	_	Gloss=DEM,f
+3	makari	_	NOUN	_	_	1	amod	_	Gloss=cloth|SpaceAfter=No
+4	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_7.99
+# text = Nadaradaraki hida makari.
+# text_seg = Nadaradara-ki hida makari.
+# hb_glosses: almost:red-DESC DEM,f cloth
+# text_en: This cloth is almost red.
+# source: hb, p. 187, ex. 99
+1	Nadaradaraki	_	ADJ	_	_	0	root	_	Gloss=almost:red-DESC
+2	hida	_	DET	_	_	3	det	_	Gloss=DEM,f
+3	makari	_	NOUN	_	_	1	amod	_	Gloss=cloth|SpaceAfter=No
+4	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = HB_7.100
+# text = Nadaraka'oaki hida makari.
+# text_seg = Nadara-ka'oa-ki hida makari.
+# hb_glosses: red-really-DESC DEM,f cloth
+# text_en: This cloth is really red.
+# source: hb, p. 187, ex. 100
+1	Nadaraka'oaki	_	ADJ	_	_	0	root	_	Gloss=red-really-DESC
+2	hida	_	DET	_	_	3	det	_	Gloss=DEM,f
+3	makari	_	NOUN	_	_	1	amod	_	Gloss=cloth|SpaceAfter=No
+4	.	_	PUNCT	_	_	1	punct	_	_
+
