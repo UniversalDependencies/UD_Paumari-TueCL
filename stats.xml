@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>101</sentences><tokens>504</tokens><words>504</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>101</sentences><tokens>504</tokens><words>504</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="7" /><!-- chop, cooking, hand, herself, reciprocal, the, throw -->
+  <forms unique="266" /><!-- ., ida, ,, hida, ada, hiki, hora, gora, hado, isai, mani, ?, Abonora, Nahina, Vaabono -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="13">
+    <tag name="ADJ">15</tag><!-- _ -->
+    <tag name="ADP">3</tag><!-- _ -->
+    <tag name="ADV">18</tag><!-- _ -->
+    <tag name="AUX">27</tag><!-- _ -->
+    <tag name="DET">49</tag><!-- _, the -->
+    <tag name="INTJ">1</tag><!-- _ -->
+    <tag name="NOUN">93</tag><!-- _, hand -->
+    <tag name="NUM">1</tag><!-- _ -->
+    <tag name="PRON">43</tag><!-- _, herself, reciprocal -->
+    <tag name="PROPN">14</tag><!-- _ -->
+    <tag name="PUNCT">116</tag><!-- _ -->
+    <tag name="SCONJ">6</tag><!-- _ -->
+    <tag name="VERB">118</tag><!-- _, chop, cooking, throw -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="0">
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="31">
+    <dep name="acl">5</dep>
+    <dep name="acl:relcl">4</dep>
+    <dep name="advcl">6</dep>
+    <dep name="advmod">9</dep>
+    <dep name="advmod:emph">6</dep>
+    <dep name="advmod:lmod">1</dep>
+    <dep name="amod">11</dep>
+    <dep name="aux">16</dep>
+    <dep name="aux:pass">7</dep>
+    <dep name="case">1</dep>
+    <dep name="ccomp">3</dep>
+    <dep name="compound">2</dep>
+    <dep name="conj">14</dep>
+    <dep name="cop">4</dep>
+    <dep name="dep">1</dep>
+    <dep name="det">48</dep>
+    <dep name="dislocated">3</dep>
+    <dep name="iobj">9</dep>
+    <dep name="mark">6</dep>
+    <dep name="nmod">12</dep>
+    <dep name="nmod:poss">5</dep>
+    <dep name="nsubj">32</dep>
+    <dep name="nsubj:pass">3</dep>
+    <dep name="obj">47</dep>
+    <dep name="obl">22</dep>
+    <dep name="obl:agent">4</dep>
+    <dep name="parataxis">1</dep>
+    <dep name="punct">116</dep>
+    <dep name="root">101</dep>
+    <dep name="vocative">2</dep>
+    <dep name="xcomp">3</dep>
+  </deps>
+</treebank>
