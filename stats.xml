@@ -10,7 +10,7 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>101</sentences><tokens>504</tokens><words>504</words><fused>0</fused></test>
   </size>
-  <lemmas unique="7" /><!-- chop, cooking, hand, herself, reciprocal, the, throw -->
+  <lemmas unique="0" /><!--  -->
   <forms unique="266" /><!-- ., ida, ,, hida, ada, hiki, hora, gora, hado, isai, mani, ?, Abonora, Nahina, Vaabono -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -19,15 +19,15 @@
     <tag name="ADP">3</tag><!-- _ -->
     <tag name="ADV">18</tag><!-- _ -->
     <tag name="AUX">27</tag><!-- _ -->
-    <tag name="DET">49</tag><!-- _, the -->
+    <tag name="DET">49</tag><!-- _ -->
     <tag name="INTJ">1</tag><!-- _ -->
-    <tag name="NOUN">93</tag><!-- _, hand -->
+    <tag name="NOUN">93</tag><!-- _ -->
     <tag name="NUM">1</tag><!-- _ -->
-    <tag name="PRON">43</tag><!-- _, herself, reciprocal -->
+    <tag name="PRON">43</tag><!-- _ -->
     <tag name="PROPN">14</tag><!-- _ -->
     <tag name="PUNCT">116</tag><!-- _ -->
     <tag name="SCONJ">6</tag><!-- _ -->
-    <tag name="VERB">118</tag><!-- _, chop, cooking, throw -->
+    <tag name="VERB">118</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="0">
