@@ -25,6 +25,7 @@ UD Paumari TueCL treebank is a manually annotated treebank of example sentences 
 Data available since: UD v2.14
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: grammar-examples
 Lemmas: not available
 UPOS: manual native
