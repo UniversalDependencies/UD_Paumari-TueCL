@@ -804,8 +804,8 @@
 # hb_glosses: self-f POSSN:VBLZR-food-ACTION-ASP-THEME
 # text_en: She is preparing food for herself.
 # source: hb, p. 179, ex. 66
-1	Abononi	herself	PRON	_	_	2	obl	_	Gloss=self-f
-2	ko'baiha'ihi	cooking	VERB	_	_	0	root	_	Gloss=POSSN:VBLZR-food-ACTION-ASP-THEME|SpaceAfter=No
+1	Abononi	_	PRON	_	_	2	obl	_	Gloss=self-f
+2	ko'baiha'ihi	_	VERB	_	_	0	root	_	Gloss=POSSN:VBLZR-food-ACTION-ASP-THEME|SpaceAfter=No
 3	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = HB_4.67
@@ -824,9 +824,9 @@
 # hb_glosses: 1SG-hand DEM,f 1SG-CAUS-chop-IMMED
 # text_en: I've chopped my hand.
 # source: hb, p- 179, ex. 68
-1	Osa'a	hand	NOUN	_	_	3	obj	_	Gloss=1SG-hand
-2	hida	the	DET	_	_	1	det	_	Gloss=DEM,f
-3	onobaja	chop	VERB	_	_	0	root	_	Gloss=1SG-CAUS-chop-IMMED|SpaceAfter=No
+1	Osa'a	_	NOUN	_	_	3	obj	_	Gloss=1SG-hand
+2	hida	_	DET	_	_	1	det	_	Gloss=DEM,f
+3	onobaja	_	VERB	_	_	0	root	_	Gloss=1SG-CAUS-chop-IMMED|SpaceAfter=No
 4	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = HB_4.69
@@ -855,8 +855,8 @@
 # hb_glosses: self-NONSPECFC DISTRIB-throw:at-down-DISTRIB-DEP:TRANS
 # text_en: They were throwing (wet sand) at each other.
 # source: hb, p. 180, ex. 71
-1	Abonoi	reciprocal	PRON	_	_	2	obl	_	Gloss=self-NONSPECFC
-2	kanagahararikhamavini	throw	VERB	_	_	0	root	_	Gloss=DISTRIB-throw:at-down-DISTRIB-DEP:TRANS|SpaceAfter=No
+1	Abonoi	_	PRON	_	_	2	obl	_	Gloss=self-NONSPECFC
+2	kanagahararikhamavini	_	VERB	_	_	0	root	_	Gloss=DISTRIB-throw:at-down-DISTRIB-DEP:TRANS|SpaceAfter=No
 3	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = HB_4.72
