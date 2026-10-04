@@ -53,12 +53,12 @@
     <dep name="dislocated">3</dep>
     <dep name="iobj">9</dep>
     <dep name="mark">6</dep>
-    <dep name="nmod">12</dep>
+    <dep name="nmod">13</dep>
     <dep name="nmod:poss">5</dep>
     <dep name="nsubj">32</dep>
     <dep name="nsubj:pass">3</dep>
     <dep name="obj">47</dep>
-    <dep name="obl">22</dep>
+    <dep name="obl">21</dep>
     <dep name="obl:agent">4</dep>
     <dep name="parataxis">1</dep>
     <dep name="punct">116</dep>
